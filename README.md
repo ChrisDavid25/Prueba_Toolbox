@@ -27,6 +27,7 @@ npm -v los cuales indicaran las versiones que se tienen de las liberias Node.js.
 4. Ingresar a Specs y seleccionar la carpeta Pruebas Toolbox
 5. Ejecutar las pruebas necesarias:
    5.1 Se encuentra la carpeta Api = Pruebas Get y Post
+
    5.2 Se encuentra la carpeta e2e = Login y Registro de usuario
 6. Verificar los resultados arrojados por la prueba. 
 
