@@ -7,7 +7,7 @@ Pruebas Qa
 ## Descripción
 El error se detectó al probar la funcionalidad de inicio de sesión en el sitio web (https://automationexercise.com/login). Al intentar iniciar sesión con las credenciales proporcionadas, el sistema devolvió un mensaje de error.
 ## Detalles del Error
-- *+Mensaje de Error en la Página:**  
+- **Mensaje de Error en la Página:**  
   Your email or password is incorrect!
  **Credenciales Utilizadas:**  
   - Correo electrónico: christian@example.com
