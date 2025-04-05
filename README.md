@@ -7,22 +7,22 @@ Pruebas Qa
 1. Abrir la terminal. (Deseable abrir la terminal desde Visual Studio Code)
 2. Accede al directorio donde se desea clonar el repositorio.
 3. Ejecutar el siguiente comando para clonar el repositorio desde GitHub:
-   git clone https://github.com/ChrisDavid25/Prueba_Toolbox.git
+   `git clone https://github.com/ChrisDavid25/Prueba_Toolbox.git`
 4. Ingresar al repositorio clonado cd Prueba_Toolbox .
 
 ## Paso 2: Instalar dependencias
-1. Validar que se tenga instalado Node.js con los siguientes comando node -v
+1. Validar que se tenga instalado Node.js con los siguientes comando `node -v`
 npm -v los cuales indicaran las versiones que se tienen de las liberias Node.js.
-2. Si no estan descargadas, ingresar a la pagina oficial de Node.js descargar la ultima version y en la terminal indicar npm install .
+2. Si no estan descargadas, ingresar a la pagina oficial de Node.js descargar la ultima version y en la terminal indicar `npm install` .
 
 ## Paso 3: Configuración Cypress
-1. Validar que el archivo cypress.config.js esté presente en el directorio raíz del proyecto. Este archivo es muy importante ya que contiene las configuraciones necesarias para Cypress.
+1. Validar que el archivo `cypress.config.js` esté presente en el directorio raíz del proyecto. Este archivo es muy importante ya que contiene las configuraciones necesarias para Cypress.
 2. Abrir Cypress desde la terminal (Deseable abrir la terminal desde Visual Studio Code) npx cypress open esto abrira la interfaz grafica de Cyprees
-3. Si no se tiene instalado Cypress desde la terminal ingresar comando npm install cypress --save-dev .
+3. Si no se tiene instalado Cypress desde la terminal ingresar comando npm install `cypress --save-dev` .
 
 ## Paso 4: Ejecutar test 
 1. Para ejecutar las pruebas desde la terminal ingresar el codigo npx cypress run
-2. Para ejecutar las pruebas desde la web desde la terminal ingresar el codigo npx cypres open
+2. Para ejecutar las pruebas desde la web desde la terminal ingresar el codigo `npx cypres open`
 3. En la interfaz de cypress selecciónar pruebas e2e
 4. Ingresar a Specs y seleccionar la carpeta Pruebas Toolbox
 5. Ejecutar las pruebas necesarias:
@@ -38,8 +38,8 @@ Objetivo: Validar que el sistema permita a un usuario autenticarse correctamente
 Flujo validado:
 * Acceso a la página de inicio de sesión.
 * Validación de correo electrónico y contraseña válidos.
-* Verificación de la solicitud POST /login para asegurarse de que el código de respuesta sea 200 (éxito).
-* Validación de la redirección hacia la página de cuenta de usuario (/account).
+* Verificación de la solicitud POST /login para asegurarse de que el código de respuesta sea `200` (éxito).
+* Validación de la redirección hacia la página de cuenta de usuario `(/account)`.
 * Confirmación de que el mensaje "Logged in as" se muestre correctamente, indicando que el usuario ha iniciado sesión satisfactoriamente.
 # Registro
 Objetivo: Validar el registro de un nuevo usuario en la interfaz
@@ -51,16 +51,16 @@ Objetivo: Validar el registro de un nuevo usuario en la interfaz
 # 2. Test API:
 # GET:
 Objetivo: Validar que el endpoint de la API https://echo-serv.tbxnet.com/v1/qa/test1 responda correctamente y cumpla con los requisitos de estado, encabezados y contenido.
-* Se realiza una solicitud HTTP GET al endpoint indicado.
-* Verificar que el código de estado de la respuesta sea 200, indicando éxito.
+* Se realiza una solicitud `HTTP GET `al endpoint indicado.
+* Verificar que el código de estado de la respuesta sea `200`, indicando éxito.
 * Confirmar que el encabezado content-type indica que la respuesta está en formato JSON (`application/json; charset
 * Comprobar que el campo ok esté presente y sea true.
 * Validar la presencia del campo date para confirmar que el servidor devuelve un valor de fecha.
 # POST:
 Objetivo: Validar que el endpoint de la API https://echo-serv.tbxnet.com/v1/test procese correctamente una solicitud POST y devuelva la respuesta esperada.
-* Compruebar que el código de estado HTTP sea 200, lo cual indica que la solicitud fue exitosa.
+* Compruebar que el código de estado HTTP sea `200`, lo cual indica que la solicitud fue exitosa.
 * Realizar una solicitud HTTP POST al endpoint proporcionado.
-* Validación del cuerpo de la respuesta, Verificar que la respuesta contenga: Campo date indicando la fecha de la solicitud,campo protocol confirmando el uso de https, campo method asegurando que se utilizó el método POST, Campo originalUrl corroborando la URL del endpoint (/v1/test).
-* Encabezados correctos (content-type, server, cf-cache-status).
+* Validación del cuerpo de la respuesta, Verificar que la respuesta contenga: Campo `date` indicando la fecha de la solicitud,campo protocol confirmando el uso de `https`, campo `method` asegurando que se utilizó el método `POST`, Campo originalUrl corroborando la URL del endpoint (/v1/test).
+* Encabezados correctos `(content-type, server, cf-cache-status)`.
 
    
