@@ -26,6 +26,7 @@ npm -v los cuales indicaran las versiones que se tienen de las liberias Node.js.
 3. En la interfaz de cypress selecciónar pruebas e2e
 4. Ingresar a Specs y seleccionar la carpeta Pruebas Toolbox
 5. Ejecutar las pruebas necesarias:
+   
    5.1 Se encuentra la carpeta Api = Pruebas Get y Post
 
    5.2 Se encuentra la carpeta e2e = Login y Registro de usuario
@@ -46,8 +47,8 @@ Objetivo: Validar el registro de un nuevo usuario en la interfaz
 * Completar los campos como nombre, correo único, contraseña, fecha de nacimiento y contacto.
 * Verificar que el registro se procese correctamente.
 * Validar que el fomulario se envie correctamente
-* Confirma que el mensaje "Account Created!" se muestre, indicando que el registro fue exitoso.
-* Validar que el usuario sea redirigido a la página donde aparece el mensaje "Logged in as" para confirmar el inicio de sesión después del registro.
+* Confirma que el mensaje `"Account Created!"` se muestre, indicando que el registro fue exitoso.
+* Validar que el usuario sea redirigido a la página donde aparece el mensaje `"Logged in as"` para confirmar el inicio de sesión después del registro.
 # 2. Test API:
 # GET:
 Objetivo: Validar que el endpoint de la API https://echo-serv.tbxnet.com/v1/qa/test1 responda correctamente y cumpla con los requisitos de estado, encabezados y contenido.
