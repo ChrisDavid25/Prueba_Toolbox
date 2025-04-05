@@ -1,0 +1,5 @@
+# Informe de Error: Solicitud cURL a la API REST
+
+## Descripción
+Error detectado al realizar un llamado a la API REST utilizando cURL. el cual se relaciona está relacionado con el uso incorrecto de comillas en el cuerpo de la solicitud.
+Se identifico tambien comillas multiples en el campo `details`
