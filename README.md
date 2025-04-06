@@ -12,7 +12,7 @@ Pruebas Qa
 
 ## Paso 2: Instalar dependencias
 * Validar que se tenga instalado Node.js con los siguientes comando `node -v`
-npm -v los cuales indicaran las versiones que se tienen de las liberias Node.js.
+`npm -v` los cuales indicaran las versiones que se tienen de las liberias Node.js.
 * Si no estan descargadas, ingresar a la pagina oficial de Node.js descargar la ultima version y en la terminal indicar `npm install` .
 
 ## Paso 3: Configuración Cypress
