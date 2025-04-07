@@ -8,7 +8,7 @@ Pruebas Qa
 * Accede al directorio donde se desea clonar el repositorio.
 * Ejecutar el siguiente comando para clonar el repositorio desde GitHub:
    `git clone https://github.com/ChrisDavid25/Prueba_Toolbox.git`
-* Ingresar al repositorio clonado cd Prueba_Toolbox .
+* Ingresar al repositorio clonado `cd Prueba_Toolbox` .
 
 ## Paso 2: Instalar dependencias
 * Validar que se tenga instalado Node.js con los siguientes comando `node -v`
@@ -17,11 +17,11 @@ Pruebas Qa
 
 ## Paso 3: Configuración Cypress
 * Validar que el archivo `cypress.config.js` esté presente en el directorio raíz del proyecto. Este archivo es muy importante ya que contiene las configuraciones necesarias para Cypress.
-* Abrir Cypress desde la terminal (Deseable abrir la terminal desde Visual Studio Code) npx cypress open esto abrira la interfaz grafica de Cyprees
+* Abrir Cypress desde la terminal (Deseable abrir la terminal desde Visual Studio Code) `npx cypress` open esto abrira la interfaz grafica de Cyprees
 * Si no se tiene instalado Cypress desde la terminal ingresar comando npm install `cypress --save-dev` .
 
 ## Paso 4: Ejecutar test 
-* Para ejecutar las pruebas desde la terminal ingresar el codigo npx cypress run
+* Para ejecutar las pruebas desde la terminal ingresar el codigo `npx cypress run`
 * Para ejecutar las pruebas desde la web desde la terminal ingresar el codigo `npx cypres open`
 * En la interfaz de cypress selecciónar pruebas e2e
 * Ingresar a Specs y seleccionar la carpeta Pruebas Toolbox
